@@ -253,7 +253,7 @@ h2 {
     content: none;
 }
 
-@media (max-width: 766px) {
+@media (max-width: 444px) {
     .timeline__event {
         flex-direction: column;
         align-self: center;
@@ -267,7 +267,12 @@ h2 {
         border-radius: 6px 6px 0 0;
         width: 100%;
         margin: 0;
+        font-size: 16px;
         box-shadow: none;
+    }
+
+    .timeline__event__title {
+        font-size: 1rem;
     }
 
     .timeline__event__icon:before,
@@ -278,6 +283,7 @@ h2 {
     .timeline__event__date {
         border-radius: 0;
         padding: 20px;
+        font-size: 1rem;
     }
 
     .timeline__event:nth-child(2n+1) {
