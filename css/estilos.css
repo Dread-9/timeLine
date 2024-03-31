@@ -253,7 +253,7 @@ h2 {
     content: none;
 }
 
-@media (max-width: 444px) {
+@media (max-width: 908px) {
     .timeline__event {
         flex-direction: column;
         align-self: center;
