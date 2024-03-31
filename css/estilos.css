@@ -221,6 +221,38 @@ h2 {
     content: none;
 }
 
+.timeline__event--type4:after {
+    background: #000000;
+}
+
+.timeline__event--type4 .timeline__event__date {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.timeline__event--type4:nth-child(2n+1) .timeline__event__icon:before,
+.timeline__event--type4:nth-child(2n+1) .timeline__event__icon:after {
+    background: #000000;
+}
+
+.timeline__event--type4 .timeline__event__icon {
+    background: #000000;
+    color: #000000;
+}
+
+.timeline__event--type4 .timeline__event__icon:before,
+.timeline__event--type4 .timeline__event__icon:after {
+    background: #c0c3c0;
+}
+
+.timeline__event--type4 .timeline__event__title {
+    color: #b3bbb8;
+}
+
+.timeline__event:last-child .timeline__event__icon:before {
+    content: none;
+}
+
 @media (max-width: 766px) {
     .timeline__event {
         flex-direction: column;
